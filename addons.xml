@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.canalparticular" name="Repository Canal Particular" version="0.0.1" provider-name="Canal Particular">
+	<extension point="xbmc.addon.repository" name="Repository Canal Particular Add-on Repository">
+		<info compressed="false">http://raw.github.com/canalparticular/repository.canalparticular/master/addons.xml</info>
+		<checksum>http://raw.github.com/canalparticular/repository.canalparticular/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/canalparticular/repository.canalparticular/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repository do Canal Particular</summary>
+		<description>Todos as minhas Builds.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
