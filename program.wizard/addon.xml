@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="program.wizard" name="Wizard Builds" version="0.0.1" provider-name="Canal Particular">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Wizard Builds</summary>
+    <description lang="en">Wizard Builds</description>
+    <description lang="pt">Wizard Builds</description>
+    <disclaimer lang="en">All compilations made ​​by me or modified for Kodi system 16.x</disclaimer>
+    <disclaimer lang="pt">Todas as Builds feitas por mim ou alteradas para sistema Kodi 16.x.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
